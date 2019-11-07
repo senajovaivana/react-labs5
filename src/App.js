@@ -1,12 +1,8 @@
 import React from 'react'
-import PlayerComponent from "./PlayerComponent";
+import GameAdmin from "./GameAdmin";
 
 const App = () => (
-  <h1>Minimal React</h1>
-  <PlayerComponent
-            nameOfPlayer= {}
-            numberOfPlayer = {2} />
-  <PlayerComponent numberOfPlayer = {2} />
-)
+    <GameAdmin/>
+);
 
 export default App
